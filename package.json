@@ -1,0 +1,26 @@
+{
+    "type": "module",
+    "name": "A2ARouter",
+    "dependencies": {
+        "@a2a-js/sdk": "^0.2.2",
+        "dotenv": "^17.2.0",
+        "nodemon": "^3.1.10"
+    },
+    "scripts": {
+        "dev": "nodemon --exec tsx ./Server/app.ts"
+    },
+    "devDependencies": {
+        "@a2a-js/sdk": "^0.2.1",
+        "@genkit-ai/googleai": "^1.14.1",
+        "@genkit-ai/vertexai": "^1.8.0",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.1",
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "genkit": "^1.14.1",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
+    }
+}
